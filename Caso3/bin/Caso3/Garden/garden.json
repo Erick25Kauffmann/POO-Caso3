@@ -1,0 +1,101 @@
+{
+
+  "Planta":[
+    {
+      "Nombre" : "Palmera",
+      "Estado" : [
+        {
+          "tamaño": "Pequeña",
+          "tiempoTam" : "30",
+          "minVida" : "1",
+          "maxVida" : "20",
+          "minAgua" : "10",
+          "maxAgua" : "100",
+          "minAbono" : "0",
+          "maxAbono" : "20",
+          "fotoViva" : "palmera_viva_1.png",
+          "fotoMuerta" : "palmera_muerta_1.png"
+        },
+        {
+          "tamaño": "Grande",
+          "tiempoTam" : "500",
+          "minVida" : "1",
+          "maxVida" : "100",
+          "minAgua" : "10",
+          "maxAgua" : "500",
+          "minAbono" : "0",
+          "maxAbono" : "50",
+          "fotoViva" : "palmera_viva_2.png",
+          "fotoMuerta" : "palmera_muerta_2.png"
+         }
+       ]
+      },
+      
+    {
+      "Nombre" : "Mango",
+      "Estado" : [
+        {
+          "tamaño": "Pequeño",
+          "tiempoTam" : "30",
+          "minVida" : "1",
+          "maxVida" : "20",
+          "minAgua" : "10",
+          "maxAgua" : "100",
+          "minAbono" : "0",
+          "maxAbono" : "20",
+          "fotoViva" : "mango_viva_1.png",
+          "fotoMuerta" : "mango_muerta_1.png"
+        },
+        {
+          "tamaño": "Grande",
+          "tiempoTam" : "500",
+          "minVida" : "1",
+          "maxVida" : "100",
+          "minAgua" : "10",
+          "maxAgua" : "500",
+          "minAbono" : "0",
+          "maxAbono" : "50",
+          "fotoViva" : "mango_viva_2.png",
+          "fotoMuerta" : "mango_muerta_2.png"
+         }
+       ]
+      }
+      
+      
+     ],
+
+  "Estacion":[
+      {
+      "nomEstacion" : "Verano",
+      "startDate": "1",
+      "endDate": "91",
+      "minAgua": "0",
+      "maxAgua": "10",  
+      "daño": "5"
+      },
+      {
+      "nomEstacion" : "Primavera",
+      "startDate": "92",
+      "endDate": "182",
+      "minAgua": "10",
+      "maxAgua": "30",  
+      "daño": "1"
+      },
+      {
+      "nomEstacion" : "Otoño",
+      "startDate": "183",
+      "endDate": "273",
+      "minAgua": "30",
+      "maxAgua": "60",  
+      "daño": "2"
+      },
+      {
+      "nomEstacion" : "Invierno",
+      "startDate": "274",
+      "endDate": "364",
+      "minAgua": "60",
+      "maxAgua": "100",  
+      "daño": "5"
+      }
+   ]
+}
